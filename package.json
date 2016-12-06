@@ -1,0 +1,25 @@
+{
+  "name": "joe",
+  "version": "1.0.4",
+  "description": "Joe provides tools for javascript object encryption and encoding.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "compile": "browserify index.js -o docs/joe.js",
+    "build": "npm run compile; cp docs/joe.js dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OR13/joe.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/OR13/joe/issues"
+  },
+  "homepage": "https://github.com/OR13/joe#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
