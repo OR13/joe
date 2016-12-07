@@ -4,7 +4,7 @@
 [![NPM](https://nodei.co/npm/joe.png)](https://nodei.co/npm/joe/)
 
 
-[![Build Status](https://travis-ci.org/OR13/Joe.svg?branch=master)](https://travis-ci.org/OR13/joe)
+[![Build Status](https://travis-ci.org/OR13/joe.svg?branch=master)](https://travis-ci.org/OR13/joe)
 
 ## WARNING THIS IS AN EXPERIMENT. DO NOT USE.
 
@@ -36,6 +36,8 @@ or
 
 ```
 Joe.init({ password: 'shared_secret' }); 
+
+```
 
 ### Dev
 

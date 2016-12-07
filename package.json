@@ -7,7 +7,7 @@
     "start": "node index.js",
     "compile": "browserify index.js -o docs/joe.js",
     "build": "npm run compile; cp docs/joe.js dist",
-    "test": "mocha"
+    "test": "mocha src"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/OR13/joe#readme",
   "dependencies": {
-    "mocha": "^3.2.0"
+    "lodash": "^4.17.2",
+    "mocha": "^3.2.0",
+    "node-jose": "^0.9.1"
   }
 }
